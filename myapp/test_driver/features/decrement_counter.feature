@@ -12,3 +12,8 @@ Feature: Decrement Counter
       | 10              | 1         | 9             |
       | 10              | 9         | 1             |
       | 3               | 3         | 0             |
+
+  Scenario: Counter should not be negative
+    Given the counter is set to "0"
+    When I tap the "decrement" button 1 time
+    Then I expect the "counter" to be "0"
