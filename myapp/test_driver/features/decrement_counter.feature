@@ -1,6 +1,6 @@
 Feature: Decrement Counter
   As the good shepherd
-  I want to be able to decrement the count of my sheeps when one is lost
+  I want to be able to decrement the count of my sheep when one is lost
   So that I can have extra joy incrementing the counter when I found the lost sheep
 
   Scenario Outline: Counter decreases when the (-) button is pressed
